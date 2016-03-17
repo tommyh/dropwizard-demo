@@ -52,6 +52,19 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <releases>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+      <id>com.sikulix</id>
+      <name>com.sikulix</name>
+      <url>https://oss.sonatype.org/content/groups/public</url>
+    </repository>
+  </repositories>
   <properties>
     <dropwizard.version>0.6.2</dropwizard.version>
   </properties>

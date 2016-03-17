@@ -1,0 +1,18 @@
+{
+  "cmd": "click",
+  "args": [
+    {
+      "type": "Location",
+      "args": [
+        {
+          "type": "Integer",
+          "val": 1300
+        },
+        {
+          "type": "Integer",
+          "val": 12
+        }
+      ]
+    }
+  ]
+}
